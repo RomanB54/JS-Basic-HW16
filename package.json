@@ -1,0 +1,19 @@
+{
+  "name": "js-basic-hw-16",
+  "version": "1.0.0",
+  "description": "Home work JS Basic lesson 16",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanB54/JS-Basic-HW16.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomanB54/JS-Basic-HW16/issues"
+  },
+  "homepage": "https://github.com/RomanB54/JS-Basic-HW16#readme"
+}
