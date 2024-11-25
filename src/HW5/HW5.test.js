@@ -1,6 +1,6 @@
 import { getSumArray, createNewArray, findLowestAndBiggest } from './HW5';
 
-describe('Function to get sum of array', () => {
+describe('Functions to get sum, multiply by 2 and define min, max of array', () => {
   afterEach(() => {
     jest.restoreAllMocks();
   });
