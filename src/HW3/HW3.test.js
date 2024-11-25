@@ -10,9 +10,9 @@ describe('sum50to100', () => {
   });
 
   it('console.log shows sum', () => {
-    const logSpy = jest.spyOn(console, 'log');
+    console.log = jest.fn();
     sum50to100();
-    expect(logSpy).toHaveBeenCalledWith(3825);
+    expect(console.log).toHaveBeenCalledWith(3825);
   });
 });
 
@@ -22,9 +22,9 @@ describe('Check Multiplication Table of 7', () => {
   });
 
   it('console.log shows table', () => {
-    const logSpy = jest.spyOn(console, 'log');
+    console.log = jest.fn();
     showMultiplicationTableOf7();
-    expect(logSpy).not.toBeNull();
+    expect(console.log).not.toBeNull();
   });
 });
 
