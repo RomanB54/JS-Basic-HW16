@@ -1,9 +1,4 @@
-import {
-  user,
-  addAgeByPrompt,
-  assignRole,
-  saveObjectKeyToVariables,
-} from './HW4';
+import { addAgeByPrompt, assignRole, saveObjectKeyToVariables } from './HW4';
 
 describe('Function to add user age property', () => {
   afterEach(() => {
