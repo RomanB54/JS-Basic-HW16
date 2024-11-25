@@ -19,11 +19,3 @@ export function calculate3Digit() {
     Number(splittedInput[2]);
   return console.log(sum);
 }
-
-// const inputNum = prompt("Enter three-digit number");
-// const splittedInput = inputNum.split("");
-// const sum =
-//   Number(splittedInput[0]) +
-//   Number(splittedInput[1]) +
-//   Number(splittedInput[2]);
-// console.log(sum);

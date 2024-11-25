@@ -1,3 +1,13 @@
+import {
+  a,
+  b,
+  sumAB,
+  multiplicationAB,
+  firstStr,
+  secondStr,
+  calculate3Digit,
+} from './HW1';
+
 describe('sum and multiplication a,b', () => {
   it('Check a,b is a number', () => {
     expect(typeof a).toEqual('number');
